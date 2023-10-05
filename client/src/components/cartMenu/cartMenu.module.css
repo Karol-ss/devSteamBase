@@ -3,6 +3,7 @@
     width: 350px;
     position: absolute;
     right: 60px;
+    top: 0;
     padding: 20px;
     z-index: 10;
 }
@@ -19,5 +20,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.priceLine h2{
     font-size: 16px;
 }

@@ -1,3 +1,6 @@
+.cartButton {
+    position: relative;
+}
 .cartButton img{
     cursor: pointer;
 }
