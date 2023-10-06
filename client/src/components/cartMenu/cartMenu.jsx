@@ -53,7 +53,7 @@ const CartMenu = ({ isOpen, onClose }) => {
           {cart
             .reduce((prev, current) => prev + current.price, 0)
             .toFixed(2)
-            .replace(",", ",")}
+            .replace(".", ",")}
         </h2>
       </div>
       <Button fullwidth>Finalizar Compra</Button>

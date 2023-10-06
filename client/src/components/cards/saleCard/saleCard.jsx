@@ -16,7 +16,7 @@ const SaleCard = ({ discount, fullPrice, title, onAdd }) => {
           <div>-{discount}%</div>
           <div>
             <p>R${fullPrice}</p>
-            <h4>R${(fullPrice - fullPrice * (discount / 100)).toFixed(2)}</h4>
+            <h4>R${(fullPrice - fullPrice * (discount / 100)).toFixed(2) .replace (".", ",")}</h4>
           </div>
         </div>
         <Button fullwidth onClick={onAdd}> Adicionar ao carrinho</Button>
