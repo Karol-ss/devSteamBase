@@ -12,7 +12,7 @@ const CartOption = ({img, title, price, onRemove}) => {
         <div className={styles.info}>
             <h3>{title}</h3>
             <h3>R$ {price.toFixed(2)}</h3>
-            <p>Remover</p>
+            <p onClick={onRemove}>Remover</p>
         </div>
     </div>
   )

@@ -16,6 +16,10 @@
     padding-bottom: 40px;
 }
 
+.options p{
+ text-align: center;
+}
+
 .priceLine{
     display: flex;
     justify-content: space-between;

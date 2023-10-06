@@ -26,6 +26,7 @@
   height: 40px;
   border: none;
   padding: 0 20px;
+  border-radius: 20px;
 }
 
 .bar input::placeholder{

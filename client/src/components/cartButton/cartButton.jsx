@@ -12,7 +12,10 @@ const CartButton = () => {
   return (
     <div className={styles.cartButton} onClick={() => setOpen(!open)}>
       <img src={logo} alt="icone de carrinho de compra" width={"46"} />
-      {open && <CartMenu />}
+      {open && <CartMenu
+      isOpen={open}
+      onClose={() => setOpen(false)}
+      />}
     </div>
   );
 };
